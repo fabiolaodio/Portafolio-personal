@@ -47,6 +47,7 @@ header section a{
     flex-direction: row;
     align-items: center;   
 }
+
 .circle{
     width: 20px;
     height: 20px;
@@ -78,4 +79,17 @@ header section a{
 /* Seccion del scroll horizontal*/
 /* Seccion del scroll horizontal*/
 /* Seccion del scroll horizontal*/
+
+.container-scroll{
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+
+}
+
+.car-scroll{
+    display: inline-block;
+    width: 300px;
+}
 
