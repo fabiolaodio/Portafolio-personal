@@ -43,10 +43,31 @@ header section a{
     color: var(--color1);
     text-decoration: none;
 }
+
 .header-subcontainer{
     display: flex;
     flex-direction: row;
-    align-items: center;   
+    align-items: center; 
+    height: 100%;
+    width: 140px;
+    justify-content: center;
+      
+}
+.header-subcontainer:hover{
+    background-color: var(--color1);
+    height: 40px;
+    padding: 5px;
+    border-radius: 4px;
+
+    
+}
+.header-subcontainer a:hover{
+    color: white;
+    
+}
+.header-subcontainer p:hover{
+    color: white;
+    
 }
 
 .circle{
